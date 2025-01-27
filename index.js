@@ -3,12 +3,12 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const exaggerations = {
-  sunny: "🔥 You will be roasted alive. SPF 9000 required.",
-  rainy: "🌊 The flood is coming. Noah is building an ark.",
-  cloudy: "☁️ The sky is falling. Panic now!",
-  windy: "🌪️ Hold onto your house, it's flying away!",
-  snowy: "❄️ Winter is here. White Walkers are marching.",
-  stormy: "⚡ Zeus is angry. Hide before he strikes!",
+  sunny: "🔥 Just like your ex—hot, distant, and trying to kill you.",
+  rainy: "🌊 Drowning in water, just like you're drowning in debt.",
+  cloudy: "☁️ Just like your future—gray and depressing.",
+  windy: "🌪️ Life’s falling apart, just like your umbrella.",
+  snowy: "❄️ Cold, empty, and unforgiving—just like your soul.",
+  stormy: "⚡ Chaotic, violent, and full of regret—just like your last relationship.",
 };
 
 app.get("/weather", (req, res) => {
@@ -28,12 +28,12 @@ app.get("/weather", (req, res) => {
 });
 
 const doomPredictions = [
-  "💀 The end is near! Stock up on canned beans.",
-  "🛸 Aliens are invading. Grab your tinfoil hat!",
-  "🌋 A volcano will erupt under your house. Good luck.",
-  "🐙 Cthulhu has awakened. The oceans belong to him now.",
-  "🔮 The spirits whisper... and they don’t like you.",
-  "🚀 Earth is on course for the sun. Say your goodbyes.",
+  "💀 Hope you enjoyed life. It’s over soon.",
+  "🛸 Aliens are coming. You’re not on the VIP list.",
+  "🌋 Your house is now premium lava-front property.",
+  "🐙 Cthulhu woke up. You're on the menu.",
+  "🔮 The spirits say... nah, you don’t wanna know.",
+  "🚀 Earth is speedrunning its way into the sun.",
 ];
 
 app.get("/doom", (req, res) => {
