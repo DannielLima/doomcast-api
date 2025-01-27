@@ -15,7 +15,7 @@ GET https://doomcast-api.onrender.com/weather?condition={type}
 
 📌 Examples:
 
-```http
+```bash
 https://doomcast-api.onrender.com/weather?condition=sunny
 https://doomcast-api.onrender.com/weather?condition=rainy
 ```
